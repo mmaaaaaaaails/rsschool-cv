@@ -15,6 +15,7 @@ Seed values ​​and being honest are important to me.
 - HTML
 - CSS
 - JS
+- Bootstrap
 - BEM
 - VS Code
 - Sublime
@@ -25,3 +26,4 @@ Seed values ​​and being honest are important to me.
 - Course HTML & CSS by ITsity
 - Course JS by ITsity
 - Online course by Udemy
+
