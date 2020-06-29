@@ -53,24 +53,28 @@
     display: inline-block;
     background-size: cover;
     margin-right: 20px;
-    filter: invert(50%) sepia(50%) saturate(2500%) hue-rotate(525deg) brightness(100%) contrast(100%);
 }
 
 
 .linkedin {
   background-image: url(assets/linkedin.svg);
+  filter: invert(50%) sepia(50%) saturate(2500%) hue-rotate(525deg) brightness(100%) contrast(100%);
 }
 
 .phone {
   background-image: url(assets/phone.svg);
+  filter: invert(50%) sepia(50%) saturate(2500%) hue-rotate(525deg) brightness(1%) contrast(100%);
 }
 
 .message {
   background-image: url(assets/emaill.svg);
+  filter: invert(50%) sepia(50%) saturate(2500%) hue-rotate(360deg) brightness(100%) contrast(100%);
 }
 
 .github {
   background-image: url(assets/github.svg);
+  filter: sepia(1)
+
 }
 
 .title {
@@ -100,15 +104,10 @@
   display: block;
   text-decoration: none;
   font-size: 24px;
-  color: black;
+  color: rgb(0,174,248);
   margin-top: 10px;
   list-style: none;
   font-weight: 400;
-}
-
-.projects_link:hover {
-  color: green;
-  transition: all .3s linear;
 }
 
 .item {
