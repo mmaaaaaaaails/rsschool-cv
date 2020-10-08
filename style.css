@@ -15,6 +15,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
@@ -44,7 +45,8 @@
 }
 
 .photo {
-  width: 240px;
+  width: 24%;
+  height: auto;
 }
 
 .icon {
