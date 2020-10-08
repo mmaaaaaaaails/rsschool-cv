@@ -45,7 +45,7 @@
 }
 
 .photo {
-  width: 24%;
+  max-width: 240px;
   height: auto;
 }
 
