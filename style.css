@@ -5,15 +5,11 @@
   font-family: 'Merriweather', sans-serif;
 }
 
-/* body {
-  overflow-x: hidden;
-} */
-
 
 .wrapper {
 	margin: 0 auto;
   padding: 0 20px;
-  width: 1020px;
+  max-width: 1020px;
   overflow-x: hidden;
 }
 
@@ -139,22 +135,10 @@
 @media only screen and (max-width: 767px){
 
   .photo {
-    width: 50%;
+    width: 100%;
   }
 
-  .desc {
-    width: 75%;
-  }
-
-  .skills {
-    width: 75%;
-  }
-
-  .projects {
-    width: 75%;
-  }
-
-  .courses {
-    width: 75%;
+  .info {
+    width: 100%;
   }
 }
