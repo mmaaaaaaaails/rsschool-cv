@@ -5,11 +5,16 @@
   font-family: 'Merriweather', sans-serif;
 }
 
+/* body {
+  overflow-x: hidden;
+} */
+
 
 .wrapper {
 	margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 20px;
   width: 1020px;
+  overflow-x: hidden;
 }
 
 .header {
@@ -45,8 +50,7 @@
 }
 
 .photo {
-  max-width: 240px;
-  height: 320px;
+  width: 30%;
 }
 
 .icon {
@@ -86,6 +90,7 @@
 }
 
 .desc {
+  width: 100%;
   font-size: 20px;
   margin-top: 10px;
   font-weight: 400;
@@ -94,12 +99,15 @@
 .skills {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .projects {
   display: flex;
   justify-content: space-between;
-
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .projects_link {
@@ -120,9 +128,33 @@
 }
 
 .info {
-  width: 50%;
+  width: 49%;
 }
 
 .courses {
   margin-bottom: 30px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px){
+
+  .photo {
+    width: 50%;
+  }
+
+  .desc {
+    width: 75%;
+  }
+
+  .skills {
+    width: 75%;
+  }
+
+  .projects {
+    width: 75%;
+  }
+
+  .courses {
+    width: 75%;
+  }
 }
