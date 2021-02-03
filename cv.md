@@ -7,11 +7,11 @@
 
 ## Summary
 
-I want to realize myself as a Front-end Developer. I am responsible, accurate, keep myself up to date on the latest technology and improve my skills.
+Creative and self-starting Front-End Developer. Interested in becoming part of a friendly team that wants to grow and create great applications.
 
 ## Skills
 
-JavaScript, HTML, CSS, SCSS, BEM, Bootstrap, Git, Webpack, Photoshop, Figma, SVG.
+JavaScript, HTML, CSS, SCSS, BEM, Bootstrap, Git, Webpack, Photoshop, Figma, SVG, React
 
 ## Education
 
@@ -19,10 +19,11 @@ JavaScript, HTML, CSS, SCSS, BEM, Bootstrap, Git, Webpack, Photoshop, Figma, SVG
 
 ## Languages
 
-- English – Pre-Intermediate
+- English – Intermediate
 
 ## Сertificates
 
+- React + Redux - Professional Development
 - Сourse - Basics Computer Science by IT Academy
 - Practical course HTML / CSS by itcity
 - Practical course JavaScript by itcity
