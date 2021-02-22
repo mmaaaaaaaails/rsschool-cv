@@ -23,6 +23,7 @@ JavaScript, HTML, CSS, SCSS, BEM, Bootstrap, Git, Webpack, Photoshop, Figma, SVG
 
 ## Сertificates
 
+- JS/FE 2020 Q3 (JavaScript) - The Rolling Scopes School
 - React + Redux - Professional Development
 - Сourse - Basics Computer Science by IT Academy
 - Practical course HTML / CSS by itcity
