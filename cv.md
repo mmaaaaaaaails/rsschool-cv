@@ -3,27 +3,41 @@
 - Minsk, Belarus
 - v.dudko93@gmail.com
 - +375 (44) 533-98-58
+- https://www.linkedin.com/in/vadim-dudko-968632171/
+- https://github.com/mmaaaaaaaails
 
-## Summary
+## Profile
 
-My goal is to succeed in programming.
-My desire is to go to a football match in London.
-Seed values ​​and being honest are important to me.
+Creative and self-starting Front-End Developer. Interested in becoming part of a friendly team that wants to grow and create great applications.
 
-## Skills	
+## Skills
 
 - HTML
 - CSS
-- JS
-- Bootstrap
+- CSS
 - BEM
-- VS Code
-- Sublime
+- Bootstrap
+- Git
+- Webpack
+- Gulp
+- Pug
+- JS
+- React
+- Photoshop
+- Figma
 
 ## Education
 
 - BNTU
-- Course HTML & CSS by ITsity
-- Course JS by ITsity
-- Online course by Udemy
 
+## Languages
+
+- English - Pre-Intermediate
+
+## Сertificates
+
+- React + Redux - Professional Development
+- Сourse - Basics Computer Science by IT Academy
+- Practical course HTML / CSS by itcity
+- Practical course JavaScript by itcity
+- Complete JavaScript Course - From Zero to Result by Udemy
