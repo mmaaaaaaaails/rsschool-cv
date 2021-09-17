@@ -4,87 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
   <title>CV</title>
 </head>
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="header_info">
-        <h1 class="header_title">Vadim Dudko</h1>
-        <p class="header_objective"><span class="header_objective--weight">Objective:</span> Junior Front-End Developer</p>
+      <div class="header_block">
+        <img class="header_img" src="assets/img/cv.jpg" alt="photo" width="320px" height="320px">
         <div class="header_desc">
-          <a class="header_link" href="https://www.linkedin.com/in/vadim-dudko/">
-            <span class="icon linkedin"></span>
-            <span>linkedin.com/in/vadim-dudko/</span>
-          </a>
-          <a class="header_link" href="https://github.com/mmaaaaaaaails">
-            <span class="icon github"></span>
-            <span>github.com/mmaaaaaaaails</span>
-          </a>
-          <a class="header_link" href="tel:+035283318635">
-            <span class="icon phone"></span>
-            <span>+375 (44) 533-98-58</span>
-          </a>
-          <a class="header_link" href="mailto:info@singolo.com">
-            <span class="icon message"></span>
-            <span>v.dudko93@gmail.com</span>
-          </a>
+          <h1 class="header_title">Vadim Dudko</h1>
+          <p class="header_subtitle">Front-End Developer</p>
         </div>
       </div>
-      <img class="photo" src="assets/person.jpg">
     </header>
-    <main>
-      <section class="Summary">
-        <h3 class="title">Summary</h3>
-        <p class="desc">Creative and self-starting Front-End Developer. Interested in becoming part of a friendly team that wants to grow and create great applications.</p>
+    <main class="main">
+      <section class="contacts">
+          <h3 class="contacts_title title">Contacts</h3>
+          <div class="contacts_desc">
+            <a class="contacts_link" href="https://www.linkedin.com/in/vadim-dudko/">
+              <span class="icon linkedin"></span>
+              <span>linkedin.com/in/vadim-dudko/</span>
+            </a>
+            <a class="contacts_link" href="https://github.com/mmaaaaaaaails">
+              <span class="icon github"></span>
+              <span>github.com/mmaaaaaaaails</span>
+            </a>
+            <a class="contacts_link" href="tel:+035283318635">
+              <span class="icon phone"></span>
+              <span>+375 (44) 533-98-58</span>
+            </a>
+            <a class="contacts_link" href="mailto:info@singolo.com">
+              <span class="icon message"></span>
+              <span>v.dudko93@gmail.com</span>
+            </a>
+          </div>
       </section>
-      <section class="skills">
-        <div class="info">
-          <h3 class="title">Skills</h3>
-          <p class="desc">JavaScript, HTML, CSS, SCSS, BEM, React, Bootstrap, Git, Webpack, Photoshop, Figma, SVG.</p>
-        </div>
-        <div class="info">
-          <h3 class="title">Education</h3>
-          <p class="desc">Mining engineer, Belarusian National Technical University 2011-2016</p>
-        </div>
-      </section>
-      <section class="projects">
-        <div class="info">
-          <ul class="title">Projects
-            <li class="item"><a class="projects_link" href="https://mmaaaaaaaails.github.io/momentum/">Momentum</a></li>
-            <li class="item"><a class="projects_link" href="https://task-covid-19-dashboard.netlify.app/">Covid-dashboard</a></li>
-            <li class="item"><a class="projects_link" href="https://rsclone-movesearch.netlify.app/">Movie search</a></li>
-            <li class="item"><a class="projects_link" href="https://mmaaaaaaaails.github.io/calculator/">Calculator</a></li>
-            <li class="item"><a class="projects_link" href="https://mmaaaaaaaails.github.io/virtual-keyboard/">Virtual-keyboard</a></li>
-            <li class="item"><a class="projects_link" href="https://todoooooooo.netlify.app/">Todo</a></li>
-            <li class="item"><a class="projects_link" href="https://mmaaaaaaaails.github.io/shelter/shelter/pages/main/main.html">Shelter</a></li>
-            <li class="item"><a class="projects_link" href="https://mmaaaaaaaails.github.io/singolo/">Singolo</a></li>
-            <li class="item"><a class="projects_link" href="https://test-task-incubator.netlify.app/">Page</a></li>
-            <li class="item"><a class="projects_link" href="https://mmaaaaaaaails.github.io/login/">Login</a></li>
-            <li class="item"><a class="projects_link" href="https://mmaaaaaaaails.github.io/MyProject/">FinalProject</a></li>
-            <li class="item"><a class="projects_link" href="https://mmaaaaaaaails.github.io/webdev/">Webdev</a></li>
-          </ul>
-        </div>
-        <div class="info">
-          <h3 class="title">Language</h3>
-          <p class="desc">English – Intermediate</p>
-          <p class="desc">I read technical documentation without any problems, however still improving my spoken English</p>
-        </div>
-      </section>
-      <section class="courses">
-        <div>
-          <ul class="title">Сertificates
-            <li class="item">
-              <a class="projects_link" href="https://app.rs.school/certificate/6pupnivx">JS/FE 2020 Q3 (JavaScript) - The Rolling Scopes School</a>
-            </li>
-            <li class="item">React + Redux - Professional Development</li>
-            <li class="item">Complete JavaScript Course - From Zero to Result by Udemy</li>
-            <li class="item">Practical course JavaScript by itcity</li>
-            <li class="item">Practical course HTML / CSS by itcity</li>
-            <li class="item">Сourse - Basics Computer Science by IT Academy</li>
-          </ul>
-        </div>
+      <section class="profile">
+        <h3 class="profile_title title">Profile</h3>
+        <p class="profile_desc">Creative and self-starting Front-End Developer. Interested in becoming part of a friendly team that wants to grow and create great applications.</p>
       </section>
     </main>
   </div>
