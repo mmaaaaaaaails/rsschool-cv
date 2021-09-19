@@ -14,7 +14,7 @@ Creative and self-starting Front-End Developer. Interested in becoming part of a
 
 - HTML
 - CSS
-- CSS
+- SCSS
 - BEM
 - Bootstrap
 - Git

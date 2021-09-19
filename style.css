@@ -158,6 +158,25 @@ body {
   padding-bottom: 5px;
 }
 
+.education_lists {
+  padding:0;
+  list-style: none;
+  color: #fff;
+}
+
+.education_list:before {
+  padding-right:10px;
+  font-weight: bold;
+  color: #77AEDB;
+  content: "\2714";
+  transition-duration: 0.5s;
+}
+
+.education_list:hover:before {
+  color: #337AB7;
+  content: "\2714";;
+}
+
 .projects {
   width: 60%;
 }
@@ -205,3 +224,50 @@ body {
 .projects_list:nth-child(3):hover {border-right: 10px solid #fcba30;}
 .projects_list:nth-child(4):hover {border-right: 10px solid #1ccfc9;}
 .projects_list:nth-child(5):hover {border-right: 10px solid #493224;}
+.projects_list:nth-child(6):hover {border-right: 10px solid #f05d22;}
+
+.certificates_lists {
+  counter-reset: li;
+  list-style: none;
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5)
+}
+
+.certificates_list {
+  position: relative;
+  display: block;
+  margin: 10px 25px;
+  background: #5f7cb1;
+  color: #ffff;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: .3s ease-out;
+  padding: 10px 25px;
+  font-size: 16px;
+}
+
+.certificate_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.certificates_list:hover {background: #8FD4C1;}
+.certificates_list:hover:before {transform: rotate(360deg); background: #5f7cb1;}
+
+.certificates_list:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #8FD4C1;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out
+}
