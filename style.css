@@ -24,7 +24,6 @@ body {
 
 .nav__item{
   display: none;
-  left: 0;
 }
 .nav__item__link {
   font-size: 18px;
