@@ -13,6 +13,21 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <div class="header_box">
+        <span class="hamburger" id="hamburger">
+          <span class="hamburger__line"></span>
+        </span>
+        <nav class="nav">
+          <ul class="nav__item" id="menu">
+            <li class="nav__item__link nav__item__link--active"><a href="#contacts">Contacts</a></li>
+            <li class="nav__item__link"><a href="#profile">Profile</a></li>
+            <li class="nav__item__link"><a href="#education">Education</a></li>
+            <li class="nav__item__link"><a href="#projects">Projects</a></li>
+            <li class="nav__item__link"><a href="#skills">Skills</a></li>
+            <li class="nav__item__link"><a href="#certificates">Сertificates</a></li>
+          </ul>
+        </nav>
+      </div>
       <div class="header_block">
         <img class="header_img" src="assets/img/cv.jpg" alt="photo" width="320" height="320">
         <div class="header_desc">
@@ -22,7 +37,7 @@
       </div>
     </header>
     <main class="main">
-      <section class="contacts">
+      <section class="contacts" id="contacts">
           <h3 class="contacts_title title">Contacts</h3>
           <div class="contacts_desc">
             <a class="contacts_link" href="https://www.linkedin.com/in/vadim-dudko/">
@@ -43,11 +58,11 @@
             </a>
           </div>
       </section>
-      <aside class="profile">
+      <aside class="profile" id="profile">
         <h3 class="profile_title title">Profile</h3>
         <p class="profile_desc">Creative and self-starting Front-End Developer. Interested in becoming part of a friendly team that wants to grow and create great applications.</p>
       </aside>
-      <section class="education">
+      <section class="education" id="education">
         <h3 class="education_title title">Education</h3>
         <p class="education_desc">Mining engineer</p>
         <p class="education_desc">BNTU</p>
@@ -57,7 +72,7 @@
           <p class="education_desc">English - Pre-Intermediate</p>
           <p class="education_desc">I read technical documentation without any problems, however still improving my spoken English.</p>
         </article>
-        <h3 class="education_title title">Skills</h3>
+        <h3 class="education_title title" id="skills">Skills</h3>
         <div class="education_wrapper">
           <ul class="education_lists">
             <li class="education_list">HTML</li>
@@ -75,7 +90,7 @@
           </ul>
         </div>
       </section>
-      <section class="projects">
+      <section class="projects" id="projects">
         <h3 class="projects_title title">Projects</h3>
         <div class="projects_wrapper">
           <ul class="projects_lists">
@@ -95,7 +110,7 @@
             <li class="projects_list"><a class="projects_link" target="_blank" href="https://mmaaaaaaaails.github.io/webdev/">Webdev</a></li>
           </ul>
         </div>
-        <h3 class="projects_title title">Сertificates</h3>
+        <h3 class="projects_title title" id="certificates">Сertificates</h3>
         <ul class="certificates_lists">
           <li class="certificates_list">
             <a class="certificate_link" target="_blank" href="https://app.rs.school/certificate/6pupnivx">JS/FE 2020 Q3 (JavaScript) - The Rolling Scopes School</a>
