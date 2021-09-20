@@ -106,7 +106,7 @@ body {
   width: 60%;
 }
 
-.profile_title, .projects_title {
+.profile_title, .projects_title, .highlight_title {
   background: #ebebeb;
 }
 
@@ -120,7 +120,7 @@ body {
   content: '';
   position: absolute;
   width: 16px;
-  height: 32px;
+  height: 35px;
   background: #f2c100;
   top: 0;
   left: 0;
@@ -255,6 +255,24 @@ body {
   font-weight: bold;
   border-radius: 2em;
   transition: all .3s ease-out
+}
+
+.highlight {
+  background: #2d2b57;
+}
+
+.highlight_subtitle {
+  padding: 10px;
+  color: #fff;
+}
+
+pre {
+  height: 197px;
+}
+
+code, pre, pre code {
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 .footer {

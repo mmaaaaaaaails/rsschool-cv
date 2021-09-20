@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
   <title>CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
 </head>
 <body>
   <div class="wrapper">
@@ -47,12 +48,10 @@
         <p class="profile_desc">Creative and self-starting Front-End Developer. Interested in becoming part of a friendly team that wants to grow and create great applications.</p>
       </aside>
       <section class="education">
-        <article>
-          <h3 class="education_title title">Education</h3>
-          <p class="education_desc">Mining engineer</p>
-          <p class="education_desc">BNTU</p>
-          <p class="education_desc">2011-2016</p>
-        </article>
+        <h3 class="education_title title">Education</h3>
+        <p class="education_desc">Mining engineer</p>
+        <p class="education_desc">BNTU</p>
+        <p class="education_desc">2011-2016</p>
         <article>
           <h3 class="education_title title">Language</h3>
           <p class="education_desc">English - Pre-Intermediate</p>
@@ -109,6 +108,18 @@
         </ul>
       </section>
     </main>
+    <section class="highlight">
+      <h3 class="highlight_title title">Task codewars</h3>
+      <h4 class="highlight_subtitle">Isogram</h4>
+      <p class="highlight_subtitle">An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.</p>
+      <pre>
+        <code>
+          function isIsogram(str){
+            return new Set(str.toLowerCase()).size === str.length
+          }
+        </code>
+      </pre>
+    </section>
     <footer class="footer">
       <div class="footer_block">
         <div class="footer_rss">
@@ -126,5 +137,7 @@
     </footer>
   </div>
   <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
