@@ -53,7 +53,7 @@ document.addEventListener('click', (event) => {
 
 console.log(`
 
-score: 140 - 150
+score: 150 - 150
 
 вёрстка валидная +10
 Для проверки валидности вёрстки используйте сервис https://validator.w3.org/
