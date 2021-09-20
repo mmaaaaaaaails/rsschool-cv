@@ -161,6 +161,12 @@ body {
   content: "\2714";;
 }
 
+.education_wrapper, .projects_wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .projects {
   width: 60%;
 }
@@ -176,12 +182,6 @@ body {
 	font-size: 16px;
 	color: black;
 	font-weight: 400;
-}
-
-.aa {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .projects_list {
@@ -268,9 +268,14 @@ body {
   padding: 10px;
 }
 
+.footer_rss {
+  position: relative;
+  top: 50%;
+  transform: translate(0, 10%);
+}
+
 .footer_author, .footer_rss {
   padding: 5px;
-  position: relative;
 }
 
 .footer_info {
@@ -278,16 +283,17 @@ body {
   color: #fff;
 }
 
-.footer_author:after {
-  content: '';
-  position: absolute;
-  background-image: url(assets/img/git.svg);
-  background-size: cover;
-  width: 32px;
-  height: 32px;
-  top: -1px;
-  left: -33px;
+.footer_figure {
+  display: flex;
 }
+
+.footer_figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
 
 @media (min-width: 320px) {
 

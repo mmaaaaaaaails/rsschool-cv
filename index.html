@@ -42,20 +42,24 @@
             </a>
           </div>
       </section>
-      <section class="profile">
+      <aside class="profile">
         <h3 class="profile_title title">Profile</h3>
         <p class="profile_desc">Creative and self-starting Front-End Developer. Interested in becoming part of a friendly team that wants to grow and create great applications.</p>
-      </section>
+      </aside>
       <section class="education">
-        <h3 class="education_title title">Education</h3>
-        <p class="education_desc">Mining engineer</p>
-        <p class="education_desc">BNTU</p>
-        <p class="education_desc">2011-2016</p>
-        <h3 class="education_title title">Language</h3>
-        <p class="education_desc">English - Pre-Intermediate</p>
-        <p class="education_desc">I read technical documentation without any problems, however still improving my spoken English.</p>
+        <article>
+          <h3 class="education_title title">Education</h3>
+          <p class="education_desc">Mining engineer</p>
+          <p class="education_desc">BNTU</p>
+          <p class="education_desc">2011-2016</p>
+        </article>
+        <article>
+          <h3 class="education_title title">Language</h3>
+          <p class="education_desc">English - Pre-Intermediate</p>
+          <p class="education_desc">I read technical documentation without any problems, however still improving my spoken English.</p>
+        </article>
         <h3 class="education_title title">Skills</h3>
-        <div class="aa">
+        <div class="education_wrapper">
           <ul class="education_lists">
             <li class="education_list">HTML</li>
             <li class="education_list">Pug</li>
@@ -74,7 +78,7 @@
       </section>
       <section class="projects">
         <h3 class="projects_title title">Projects</h3>
-        <div class="aa">
+        <div class="projects_wrapper">
           <ul class="projects_lists">
             <li class="projects_list"><a class="projects_link" target="_blank" href="https://mmaaaaaaaails.github.io/momentum/">Momentum</a></li>
             <li class="projects_list"><a class="projects_link" target="_blank" href="https://task-covid-19-dashboard.netlify.app/">Covid-dashboard</a></li>
@@ -108,10 +112,15 @@
     <footer class="footer">
       <div class="footer_block">
         <div class="footer_rss">
-          <a href="https://rs.school/js/" class="footer_info">RS School 2021q3</a>
+          <a href="https://rs.school/js/" target="blank" class="footer_info">RS School 2021q3</a>
         </div>
         <div class="footer_author">
-          <a href="https://github.com/mmaaaaaaaails" class="footer_info">Vadim Dudko</a>
+          <figure class="footer_figure">
+            <img src="assets/img/git.svg" alt="иконка" width="32" height="32">
+            <figcaption class="footer_figcaption">
+              <a href="https://github.com/mmaaaaaaaails" target="blank" class="footer_info">Vadim Dudko</a>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </footer>
