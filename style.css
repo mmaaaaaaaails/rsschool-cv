@@ -29,7 +29,6 @@ body {
   font-size: 18px;
   padding-bottom: 20px;
   padding-left: 20px;
-
 }
 
 .nav__item__link a {
@@ -432,10 +431,10 @@ code, pre, pre code {
   .profile_desc {
     padding: 10px;
     position: relative;
-    left: 50%;
-    top: 50%;
+    /*left: 50%;*/
+    /*top: 50%;*/
     font-size: 16px;
-    transform: translate(-48%, -70%);
+    /*transform: translate(-48%, -70%);*/
     line-height: 1.5;
   }
 }
@@ -449,7 +448,7 @@ code, pre, pre code {
   }
 
   .profile_desc {
-    transform: translate(-48%, -75%);
+    /*transform: translate(-48%, -75%);*/
     font-size: 18px;
   }
 }
@@ -481,8 +480,13 @@ code, pre, pre code {
     letter-spacing: -0.2px;
     padding-top: 10px;
   }
+
+  .nav__item__link {
+    padding-left: 0px;
+  }
+
   .nav__item__link a {
-    margin-right: 10px;
+    margin-right: 30px;
     text-decoration: none;
     color: #ffffff;
     transition: color .2s linear;

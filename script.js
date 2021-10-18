@@ -1,11 +1,13 @@
-const MENU = document.getElementById('menu');
+const MENU = document.querySelectorAll('.nav__item__link');
 
-MENU.addEventListener('click', event => {
-    MENU.querySelectorAll('li').forEach(element => element.classList.remove('nav__item__link--active'));
-    event.target.parentNode.classList.add('nav__item__link--active');
-});
+MENU.forEach((e) => {
+    e.addEventListener('click', () => {
+        MENU.forEach((el) => el.classList.remove('nav__item__link--active'));
+        e.classList.add('nav__item__link--active');
+    })
+})
 
-MENU.querySelectorAll('a[href^="#"]').forEach(anchor => {
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', event => {
         event.preventDefault();
 
