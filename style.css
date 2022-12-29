@@ -178,6 +178,7 @@ body {
 
 .profile {
   width: 60%;
+  margin-bottom: 10px;
 }
 
 .profile_title, .projects_title, .highlight_title {
@@ -232,7 +233,8 @@ body {
 
 .education_list:hover:before {
   color: #337AB7;
-  content: "\2714";;
+  content: "\2714";
+  cursor: pointer;
 }
 
 .education_wrapper, .projects_wrapper {
@@ -289,7 +291,8 @@ body {
   counter-reset: li;
   list-style: none;
   padding: 0;
-  text-shadow: 0 1px 0 rgba(255,255,255,.5)
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  margin-top: 40px;
 }
 
 .certificates_list {
@@ -422,6 +425,7 @@ code, pre, pre code {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
+    padding: 0 14px;
   }
 
   .education_list {
@@ -431,11 +435,13 @@ code, pre, pre code {
   .profile_desc {
     padding: 10px;
     position: relative;
-    /*left: 50%;*/
-    /*top: 50%;*/
     font-size: 16px;
-    /*transform: translate(-48%, -70%);*/
     line-height: 1.5;
+  }
+
+  .profile_desc_bottom {
+    padding: 0 10px;
+    margin-top: -10px;
   }
 }
 
