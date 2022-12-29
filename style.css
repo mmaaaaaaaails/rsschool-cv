@@ -130,8 +130,6 @@ body {
 .contacts_title, .education_title {
   color: #fff;
   background: #424753;
-  margin-top: 20px;
-  margin-bottom: 30px;
 }
 
 .contacts_link {
@@ -209,13 +207,14 @@ body {
 .education_desc {
   color: #fff;
   margin-left: 20px;
-  padding-bottom: 5px;
+  padding: 10px 0;
 }
 
 .education_lists {
   padding: 0;
   list-style: none;
   color: #fff;
+  margin-top: 14px;
 }
 
 .education_list {
